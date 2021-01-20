@@ -1,0 +1,90 @@
+
+
+#header_menu
+{
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 1150px;
+	height: 90px;
+	margin: 3px;
+}
+
+#header_menu > div
+{
+	float: left;
+	font-size: 18px;
+	
+}
+
+#body
+{
+	background-image: url('./img/back1.PNG');
+	background-repeat: repeat-x;
+
+}
+
+#footer_main
+{
+	background-image: url('./../img/footer/footer_main.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	width: 1200px;
+	height: 300px;
+}
+
+/* NAV MENU */
+#nav_menu
+{
+	height: 70px;
+	width: 1000px;
+	margin: 10px auto;
+	font-size:16px;
+}
+
+#nav_menu > div
+{
+	width: 1000px;
+	padding-top: 9px;
+	margin: 0 auto;
+}
+
+#nav_menu > div > div
+{
+	height: 50px;
+	border: 1px solid #444444;
+	display: inline-block;
+	float: left;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+#nav_menu > div > div > a
+{
+	width: 80px;
+	padding: 7px 0px;
+	text-align: center;	
+}
+
+.normalMenu, .normalMenu:visited,
+.hoverMenu, .hoverMenu:visited,
+.selectedMenu,.selectedMenu:visited {
+	outline: none;	
+	display: block;
+}
+
+.hoverMenu,.hoverMenu:visited,
+.selectedMenu,.selectedMenu:visited {
+	margin-top:-25px;
+	background:url(./img/gray.png) repeat-x #eeeeee;
+	color:#444444;
+}
+
+.selectedMenu,.selectedMenu:visited {
+	margin:0;
+}
+
+.normalMenu, .normalMenu:visited{
+	color:white;
+	background:url(./img/dark.png) repeat-x #444444;
+}
