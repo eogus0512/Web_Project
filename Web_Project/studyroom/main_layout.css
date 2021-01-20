@@ -1,0 +1,184 @@
+#header_menu
+{
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 1150px;
+	height: 90px;
+	margin: 3px;
+}
+
+#header_menu > div
+{
+	float: left;
+	font-size: 18px;
+	
+}
+
+#box1
+{
+	left:15%;
+	width:20.6%;
+    height:120px;
+    padding:10px;
+    border:1px solid #9DC3E6;
+    border-radius:10px;
+    position:absolute;
+}
+
+#box2
+{
+	width:18%;
+	left:38%;
+    height:100px;
+    padding:20px;
+    border:1px solid #9DC3E6;
+    border-radius:10px;
+    position:absolute;
+}
+
+#box3
+{
+	width:21%;
+	left:60%;
+    height:100px;
+    padding:20px;
+    border:1px solid #9DC3E6;
+    border-radius:10px;
+    position:absolute;
+}
+
+#section_one
+{
+	margin: 0 auto;
+	width: 1000px;	
+}
+
+#footer_main
+{
+	background-image: url('./img/footer/footer_main.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	width: 1200px;
+	height: 300px;
+}
+
+img
+{
+	border: none;
+}
+
+a
+{
+	text-decoration: none;
+	color: black;	
+}
+
+a:visited
+{
+	color: black;
+}
+
+ul, li
+{
+	list-style: none;
+}
+
+.outer_menu
+{
+	width: 750px;
+	margin: 0 auto;
+}
+
+.outer_menu_item
+{
+	float: left;
+	position: relative;
+}
+
+.outer_menu_item:hover
+{
+	background: black;
+	color: white;
+}
+
+.menu_title
+{
+	width: 150px;
+	height: 40px;
+	display: block;
+	line-height: 40px;
+	text-align: center;
+	cursor: default;
+}
+
+#center
+{
+	margin: 0 auto;
+}
+
+.center
+{
+	margin: 0 auto;
+}
+
+
+#mosaic-slideshow{
+	height:400px;
+	margin:0 auto;
+	position:relative;
+	width:950px;
+}
+
+.mosaic-slide{
+	/* This class is shared between all the slides */
+	left: 80px;
+	position: absolute;
+	top: 25px;	
+	border: 1px solid black;
+}
+
+.tile{
+	height: 60px;
+	width: 60px;
+	float: left;	
+	background-color: white;
+}
+
+.arrow{
+	width:35px;
+	height:70px;
+	background:url("./img/slider/arrows.png") no-repeat;
+	position:absolute;
+	cursor:pointer;
+	top:55%;
+	margin-top:-35px;
+}
+
+.arrow.left{
+	left:15px;
+	background-position:center top;
+}
+
+.arrow.left:hover{
+	background-position:center -70px;
+}
+
+.arrow.right{
+	right:15px;
+	background-position:center -140px;
+}
+
+.arrow.right:hover{
+	background-position:center -210px;
+}
+
+.clear{
+	clear:both;
+}
+
+#header_slider{
+	
+	margin:0 auto;
+	width:950px;
+}
